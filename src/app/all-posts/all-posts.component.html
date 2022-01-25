@@ -1,3 +1,4 @@
+
 <div *ngFor="let friend of tdsrv.friends; index as i">
     <a [routerLink]="'/post/' + friend.id"><h1>{{ friend.first_name }}</h1></a>
     <h2>{{ friend.last_name }}</h2>
