@@ -1,0 +1,10 @@
+<div>
+    <h1>{{post.first_name}}</h1>
+    <h2>{{post.last_name}}</h2>
+    <h2>{{post.email}}</h2>
+    <h2>{{post.phone}}</h2>
+    <h2>{{post.instagram}}</h2>
+    <a routerLink="/"><button>Go Back</button></a>
+    <a [routerLink]="'/edit/' + post.id"><button>Edit Friend</button></a>
+    <button (click)="deleteFriend()">Delete Friend</button>
+  </div>
