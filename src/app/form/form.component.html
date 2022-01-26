@@ -1,14 +1,10 @@
-<div>
+<div class="container-fluid">
     <br/>
-    <input type="text" placeholder="First Name" [(ngModel)]="first_name" />
-    <br/>
-    <input type="text" placeholder="Last Name" [(ngModel)]="last_name" />
-    <br/>
-    <input type="text" placeholder="Email" [(ngModel)]="email" />
-    <br/>
-    <input type="text" placeholder="Phone" [(ngModel)]="phone" />
-    <br/>
-    <input type="text" placeholder="Insta" [(ngModel)]="instagram" />
+    <input class="form-control" type="text" placeholder="First Name" [(ngModel)]="first_name" />
+    <input class="form-control" type="text" placeholder="Last Name" [(ngModel)]="last_name" />
+    <input class="form-control" type="text" placeholder="Email" [(ngModel)]="email" />
+    <input class="form-control" type="text" placeholder="Digits" [(ngModel)]="phone" />
+    <input class="form-control" type="text" placeholder="IG" [(ngModel)]="instagram" />
+<br/>
+    <button class="form-control" class="btn btn-dark" type="button" (click)="handleSubmit()">{{buttonLabel}}</button>
 </div>
-    <br/>
-    <button (click)="handleSubmit()">{{buttonLabel}}</button>
