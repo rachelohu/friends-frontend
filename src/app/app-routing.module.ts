@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AllPostsComponent } from "./all-posts/all-posts.component";
 import { SinglePostComponent } from "./single-post/single-post.component";
 import { FormComponent } from "./form/form.component";
+import { AboutMeComponent } from "./about-me/about-me.component";
 
 const routes: Routes = [
   { path: "post/:id", component: SinglePostComponent },
   { path: "new", component: FormComponent },
   { path: "edit/:id", component: FormComponent },
+  { path: "aboutme", component: AboutMeComponent },
   { path: "", component: AllPostsComponent },
 ];
 
