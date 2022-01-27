@@ -1,0 +1,10 @@
+.container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card {
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
