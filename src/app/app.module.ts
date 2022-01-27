@@ -19,7 +19,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
