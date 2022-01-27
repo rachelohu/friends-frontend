@@ -1,12 +1,14 @@
-<div class="card" *ngFor="let friend of tdsrv.friends; index as i" style="width: 18rem;">
-    <div class="card-body">
-      <h1 class="card-title">{{ friend.first_name }} {{ friend.last_name }}</h1>
-      <h2 class="card-text"> 
-        {{ friend.email }}
-        {{ friend.phone }}
-        {{ friend.instagram }}</h2>
-        <a routerLink="/"><button class="btn btn-dark" type="button">Go Back</button></a>
-            <a [routerLink]="'/edit/' + post.id"><button class="btn btn-dark" type="button">Edit Friend</button></a>
-            <button class="btn btn-dark" type="button" (click)="deleteFriend()">Delete Friend</button>
+<div class="container" style="width: 20rem">
+    <div class="card" *ngFor="let friend of tdsrv.friends; index as i" style="width: 18rem;">
+        <div class="card-body">
+          <h1 class="card-title">{{ friend.first_name }} {{ friend.last_name }}</h1>
+          <h2 class="card-text"> 
+            {{ friend.email }}
+            {{ friend.phone }}
+            {{ friend.instagram }}</h2>
+            <a routerLink="/"><button class="btn btn-dark" type="button">Go Back</button></a>
+                <a [routerLink]="'/edit/' + post.id"><button class="btn btn-dark" type="button">Edit Friend</button></a>
+                <button class="btn btn-dark" type="button" (click)="deleteFriend()">Delete Friend</button>
+        </div>
     </div>
-  </div>
+</div>
