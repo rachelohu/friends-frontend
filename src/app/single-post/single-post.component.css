@@ -2,5 +2,10 @@
     margin-top: 20px;
     white-space: nowrap;
     overflow: hidden;
-    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    margin-left: 5px;
+    margin-right: 5px;
 }

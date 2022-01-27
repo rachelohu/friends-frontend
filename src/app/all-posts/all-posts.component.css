@@ -1,5 +1,5 @@
 .container {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -7,4 +7,5 @@
     margin-top: 20px;
     white-space: nowrap;
     overflow: hidden;
+    align-items: center;
 }
